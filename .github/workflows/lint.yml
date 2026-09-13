@@ -32,7 +32,11 @@ jobs:
     env:
       WIKI_DISPATCH_TOKEN: ${{ secrets.WIKI_DISPATCH_TOKEN }}
     steps:
+      # The content lands in its own folder so that the tool checked out beside it is never
+      # read as part of the repository.
       - uses: actions/checkout@v4
+        with:
+          path: content
       - name: Check out the tool
         uses: actions/checkout@v4
         with:
@@ -53,11 +57,12 @@ jobs:
           pnpm install --frozen-lockfile
           pnpm build
       - id: lint
-        run: node .tool/packages/cli/dist/bin.js lint --source specs --fail-on error --format sarif --output concordance.sarif
+        working-directory: content
+        run: node ../.tool/packages/cli/dist/bin.js lint --source specs --fail-on error --format sarif --output concordance.sarif
         continue-on-error: true
       - uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: concordance.sarif
+          sarif_file: content/concordance.sarif
       - if: steps.lint.outcome == 'failure'
         run: exit 1
       - name: Tell the wiki to rebuild
