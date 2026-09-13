@@ -1,5 +1,6 @@
 ---
-roles: [reader]
+aliases: [search results, results page]
+roles: [roles/reader]
 url_pattern: /search
 status: valid
 ---

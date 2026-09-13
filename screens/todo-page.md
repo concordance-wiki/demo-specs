@@ -1,5 +1,6 @@
 ---
-roles: [writer]
+aliases: [todo, to-do list]
+roles: [roles/author, roles/quality-owner]
 url_pattern: /todo
 status: valid
 ---

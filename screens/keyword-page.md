@@ -1,5 +1,5 @@
 ---
-roles: [reader]
+roles: [roles/reader, roles/glossary-owner]
 url_pattern: /keywords/{word}
 status: valid
 ---

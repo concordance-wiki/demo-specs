@@ -1,5 +1,5 @@
 ---
-roles: [reader]
+roles: [roles/reader]
 url_pattern: /{source}/{path}#trail={id},{id}
 status: valid
 ---

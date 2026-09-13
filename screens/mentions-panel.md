@@ -1,5 +1,5 @@
 ---
-roles: [reader]
+roles: [roles/reader]
 url_pattern: /{source}/{path}#mentions-title
 status: valid
 ---

@@ -1,5 +1,5 @@
 ---
-roles: [reader]
+roles: [roles/reader]
 url_pattern: /{source}/{path}#document-1
 status: valid
 ---

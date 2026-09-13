@@ -1,5 +1,5 @@
 ---
-roles: [reader, integrator]
+roles: [roles/reader, roles/integrator]
 url_pattern: /{source}/{path}#contract-title
 status: valid
 ---

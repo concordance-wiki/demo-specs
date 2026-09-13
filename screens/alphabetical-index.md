@@ -1,5 +1,6 @@
 ---
-roles: [reader]
+aliases: [index, letter index]
+roles: [roles/reader]
 url_pattern: /index
 status: valid
 ---

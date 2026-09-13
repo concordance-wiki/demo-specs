@@ -1,5 +1,6 @@
 ---
-roles: [reader]
+aliases: [neighbourhood, neighbourhood panel]
+roles: [roles/reader]
 url_pattern: /{source}/{path}#neighbourhood-title
 status: valid
 ---

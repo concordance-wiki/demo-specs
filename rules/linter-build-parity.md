@@ -1,5 +1,5 @@
 ---
-aliases: [parity, LOCAL_CHECKS]
+aliases: [parity, local check parity]
 severity: error
 condition: a finding of a local check differs between the linter and the build on the same repository
 ---
