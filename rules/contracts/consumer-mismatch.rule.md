@@ -1,0 +1,15 @@
+---
+aliases: [W-API-CONSUMER-MISMATCH]
+severity: warning
+---
+# Consumer mismatch
+
+An API declares a consumer that never cites it, or a note cites an API that does not list it. One of the two is out of date. A declared consumer is an identifier, written in full or relative to the source of the API note; a note listed under the `## Consumers` section of the API note is declared too; a note cites the API when a `serves` link between the two was read in that note, the API's own `consumers` attribute and `## Consumers` section being declarations rather than citations. The attribute asks for the reconciliation: an API note without it is left to the [API without consumer](api-without-consumer.rule.md) check.
+
+Check `W-API-CONSUMER-MISMATCH`, severity warning by default, documented with a before and after example in the [check pages](https://github.com/concordance-wiki/concordance/blob/main/docs/checks/W-API-CONSUMER-MISMATCH.md). The severity can be overridden per project or per repository.
+
+## Applies to
+
+- [Entity](../../objects/inference/entity.md)
+- [Link](../../objects/inference/link.md)
+- [Build](../../processes/ingestion/build-pipeline.md)
