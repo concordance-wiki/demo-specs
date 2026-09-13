@@ -39,7 +39,7 @@ The page of a slide deck, a PDF or a transcript, or of a note merged with one, c
 
 ## Mentions
 
-The [mentions panel](../panels/mentions-panel.md) is the "Related pages" block of the right panel: one entry per page that evokes the entity, from the surest to the weakest, the pages that write a link first, then by number of passages, written links and recognised words counted alike, each entry marked "Cited" when the page writes a link; the note under the list says so. The first twenty mentions are in the served HTML; the rest loads from a JSON fragment specific to the entity.
+The [mentions panel](../panels/mentions-panel.md) is the "Related pages" block of the right panel: one entry per page that evokes the entity, by number of passages, written links and recognised words counted alike, each entry marked "Cited" when the page writes a link, six in view before the button naming the others; the note under the list says so. The first twenty mentions are in the served HTML; the rest loads from a JSON fragment specific to the entity.
 
 ## Neighbourhood
 
