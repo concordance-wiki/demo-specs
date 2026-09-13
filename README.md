@@ -14,9 +14,11 @@ The first folder level is the family of a note and gives its type; the routes ar
 | `rules/` | rule | suffix `.rule.md`, stripped from the identifier | `## Applies to` |
 | `objects/` | business_object | folder glob | — |
 | `api/` | api | folder glob | `## Consumers`, `## Objects` |
+| `api/contracts/` | — | the OpenAPI contract an API note declares under `contract:`; the build imports its operations, it is not a note | — |
 | `api/operations/` | endpoint | folder glob, declared after `api/**` | `## Consumers`, `## Rules` |
 | `roles/` | role | folder glob | — |
 | `batches/` | batch | folder glob | `## Reads`, `## Writes` |
+| `screens/assets/` | — | the sketches a screen note embeds as images, copied next to the page by the build | — |
 | `data/` | data_object | `type:` in the frontmatter of each table | — |
 | `decisions/`, `notes/` | decision | the source's `default_type`: no rule names them | `## Affects` |
 

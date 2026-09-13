@@ -23,6 +23,12 @@ The same page serves a phone, a tablet and a desktop; the text never shrinks, th
 
 The page of a type is resolved before it is rendered: a component named `EntityPage@<type>` by a theme, or the `EntityPage` a type module ships, replaces the generic template for every entity of that type, and receives the same view model, the declaration of the type included, so that it lays the page out from the declaration rather than from a list of keys. The same goes for one attribute (`Attribute@<name>`) and one mapped section (`Section@<key>`), which the generic template renders through the resolved component when there is one. The priority is fixed: the project theme, then the type module, then the default theme; the build summary lists every resolved component. The runbook of the example plugin, a procedure for operating the tool, has such a page.
 
+## Sketch
+
+The layout the page was drawn from, before any rendering existed: the tree of the space on the left, the note in the centre, the panel on the right. The file lives next to the screen notes and the build copies it beside the page, as it does for every image of a repository that stands on a line of its own.
+
+![Sketch of the entity page](../assets/entity-page-sketch.svg)
+
 ## Contract
 
 The page of an API whose contract the build imported is the [API page](api-page.md): the same shell, its operations under it in the tree, the operations table matched to the contract and the contract block with the [contract viewer](../../viewers/contract-viewer.md) after the article, the properties cut to five keys and the operations first among the related pages. The markdown of the note is untouched.
