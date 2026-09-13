@@ -17,6 +17,10 @@ The page at `<id>/index.html` opens with the type badge and the first two proper
 
 The page of an API whose contract the build imported carries the [contract viewer](contract-viewer.md) between the article and the side panel: the operations as a plain list, the download link and the viewer that loads the signatures on demand. The markdown of the note is untouched.
 
+## Documents
+
+The page of a slide deck, a PDF or a transcript, or of a note merged with one, carries the [document viewer](document-viewer.md) after the article: the download link of each file, its PDF, a rail of its pages, slides or cues, their extracted text in disclosure blocks, and the viewer that opens the PDF on demand. The markdown of the note is untouched.
+
 ## Mentions
 
 The [mentions panel](mentions-panel.md) has two sections that are never mixed: links written in notes, and files that merely cite the entity. Mentions are grouped by file, each group collapsible with its count. The first twenty are in the served HTML; the rest loads from a JSON fragment specific to the entity.
