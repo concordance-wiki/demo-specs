@@ -11,7 +11,7 @@ No dashboard, no maturity metric, no chart.
 
 ## Today
 
-The page at `index.html` shows the project name from `theme.yaml` or the configuration, the five most cited entities as shortcuts, the number of sources and files of the build and its date, and three entry points that count the entities by domain, by type and by application, each item leading to the alphabetical index. The search field waits for the search index; the file tree and the freshness entries wait for their own pages.
+The page at `index.html` states the project name from `theme.yaml` or the configuration, the number of sources and files of the build and its date spelled in the project locale. A search region comes next, empty until the search index exists, with the twelve most cited pages as shortcuts: a note counts the links pointing at it, a keyword page its occurrences. Three entry points follow, of equal standing: the file tree, one folding block per source, open, with its folders closed and its notes as links; the letters of the alphabetical index with their counts; the twenty latest changes with their git date, and under them every source with the date of its newest change, flagged dormant when that change is older than `staleness.warn_after_days`, 180 days without the key. A last line leads to the to-do page with its count. No dashboard, no metric, no chart.
 
 ## Objects
 
