@@ -17,8 +17,8 @@ triggers: [pipeline run, manual command]
 7. Scan every note with the dictionary of its locale and record each occurrence with its line, position, section and context.
 8. Produce the [links](../objects/link.md): written links, frontmatter references, mentions in mapped sections and in prose, co-occurrences per paragraph with the bounded neighbourhood.
 9. Combine the confidences of every link into one link per source, target, relation and attributes, every provenance kept.
-10. Type the relations that fell back to `related` from the section, the attribute or the type pair, once that step exists.
-11. Discover the recurring expressions without a note, flag the undefined terms and publish the keyword pages above the threshold as entities.
+10. Type the relations: keep a declared relation the profile allows between the two types and drop the others, name a `related` link from its type pair or leave it `related`, capped and reported unless co-occurrence alone knows it.
+11. Discover the recurring expressions without a note, headings and section labels left out as titles rather than usage, flag the undefined terms and publish the keyword pages above the threshold as entities.
 12. Reconcile the notes that look like twin [resources](../objects/resource.md): merge the groups above the merge threshold into one entity with several representations, report the pairs above the candidate threshold.
 13. Run every check of the registry on the model, enrich the findings of every step with the same registry and sort them once.
 14. Write the [model](../objects/model.md) and the build log, print the summary, and say that the rendering is not available in this version.
