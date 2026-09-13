@@ -6,7 +6,7 @@ status: valid
 ---
 # Mentions panel
 
-The block of the [entity page](../pages/entity-page.md) headed "Related pages", which answers one question: which pages evoke this entity, and did a person write a link or did the tool recognise the words. One entry per citing page, most passages first, written links and recognised words counted alike; an entry is marked "Cited" when its page writes a link. The first twenty mentions are in the served HTML; the rest loads from a JSON fragment specific to the entity, never from a global index. The block offers a text filter and a type filter, and without JavaScript the served pages stay readable and their links work. The threshold of twenty is configurable.
+The block of the [entity page](../pages/entity-page.md) headed "Related pages", which answers one question: which pages evoke this entity, and did a person write a link or did the tool recognise the words. One entry per citing page, from the surest to the weakest: the pages that write a link first, then most passages first, written links and recognised words counted alike; an entry is marked "Cited" when its page writes a link. The first twenty mentions are in the served HTML; the rest loads from a JSON fragment specific to the entity, never from a global index. The block offers a text filter and a type filter, and without JavaScript the served pages stay readable and their links work. The threshold of twenty is configurable.
 
 ## Today
 
