@@ -25,7 +25,7 @@ The page of a type is resolved before it is rendered: a component named `EntityP
 
 ## Contract
 
-The page of an API whose contract the build imported carries the [contract viewer](../../viewers/contract-viewer.md) between the article and the side panel: the operations as a plain list, the download link and the viewer that loads the signatures on demand. The markdown of the note is untouched.
+The page of an API whose contract the build imported is the [API page](api-page.md): the same shell, its operations under it in the tree, the operations table matched to the contract and the contract block with the [contract viewer](../../viewers/contract-viewer.md) after the article, the properties cut to five keys and the operations first among the related pages. The markdown of the note is untouched.
 
 ## Documents
 
