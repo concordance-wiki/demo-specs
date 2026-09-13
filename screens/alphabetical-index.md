@@ -9,7 +9,7 @@ Every indexed word, with or without a note, by initial letter. Letters without a
 
 ## Today
 
-One page at `index/index.html` lists every entity and keyword page of the model, ordered by title with case and accents folded, then by identifier; the letters count their entries, an active letter leads back to the page, and titles that open with a digit or a symbol gather under `#`. The glyph is the first letter of the type's glyph name in the profile; a keyword page carries the "no note" mark; the count is the number of links pointing at the entity.
+The index at `index/index.html` lists every entity and keyword page of the model in the order of the language pack of the project locale, accents and case set aside and digits compared by value, so that `étude` files between `estimate` and `event`; two titles that collate alike follow their identifiers. A bar of letters comes first: a letter without an entry is inactive and carries no link, an active letter leads to the first entry of that letter, and titles that open with a digit or a symbol gather under `#`. Each entry shows the first letter of its type's glyph name from the profile, or the "no note" mark for a keyword page, and the number of links pointing at it. When the whole index rendered as one page would weigh more than 100 kB, every letter with entries gets its own page, `index/a/index.html` to `index/other/index.html`, the index address shows the first of them, and every letter page links to its siblings, each under the page budget.
 
 ## Objects
 
