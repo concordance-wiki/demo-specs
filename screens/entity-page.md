@@ -13,6 +13,10 @@ The order is fixed: a type badge with two qualifying properties, the title, then
 
 The mentions panel has two sections that are never mixed: links written in notes, and files that merely cite the entity. Mentions are grouped by file, each group collapsible with its count. The first twenty are in the served HTML; the rest loads from a JSON fragment specific to the entity.
 
+## Neighbourhood
+
+The neighbourhood map shows the six closest entities at one hop, each with its name in plain text, next to a list that carries the same information. The order is type-driven and comes from the profile: on an API the operations come first, on a screen the accessed objects, on a rule what it applies to; the types the profile does not list for the page's type, keyword pages among them, come after, and within a group the most confident neighbour leads. The truncation to six happens after this ordering, so the map shows the best of the priority order rather than the most confident overall. A type without a declaration keeps the order by confidence. A separator marks each change of group; the template knows no type and renders the list as the model gives it.
+
 ## Objects
 
 - Reads: [entity](../objects/entity.md), [link](../objects/link.md), [finding](../objects/finding.md)
