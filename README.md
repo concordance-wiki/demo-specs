@@ -1,6 +1,6 @@
 # Concordance specifications
 
-The typed notes of Concordance itself: its screens, its two processes, its rules (one per check), its objects, its plugin API and its structuring decisions. This repository is a demonstration corpus for the tool and part of the project's own wiki, published by [demo-wiki](https://github.com/concordance-wiki/demo-wiki) together with the [glossary](https://github.com/concordance-wiki/demo-glossary).
+The typed notes of Concordance itself: its screens, its two processes, its rules (one per check), its objects, its plugin API, the model query API of the future service and its structuring decisions. This repository is a demonstration corpus for the tool and part of the project's own wiki, published by [demo-wiki](https://github.com/concordance-wiki/demo-wiki) together with the [glossary](https://github.com/concordance-wiki/demo-glossary).
 
 | Folder | Type | Sections that produce relations |
 |---|---|---|
