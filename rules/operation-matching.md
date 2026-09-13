@@ -14,4 +14,4 @@ A matched note absorbs the operation: it keeps its identifier, its markdown and 
 - [Model query API](../api/model-query.md)
 - [Entity](../objects/entity.md)
 - [Link](../objects/link.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
