@@ -15,7 +15,7 @@ The page at `<id>/index.html` opens with the type badge and the first two proper
 
 ## Mentions
 
-The mentions panel has two sections that are never mixed: links written in notes, and files that merely cite the entity. Mentions are grouped by file, each group collapsible with its count. The first twenty are in the served HTML; the rest loads from a JSON fragment specific to the entity.
+The [mentions panel](mentions-panel.md) has two sections that are never mixed: links written in notes, and files that merely cite the entity. Mentions are grouped by file, each group collapsible with its count. The first twenty are in the served HTML; the rest loads from a JSON fragment specific to the entity.
 
 ## Neighbourhood
 
