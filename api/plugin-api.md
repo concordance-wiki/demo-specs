@@ -10,7 +10,7 @@ The versioned interface through which a plugin contributes to the tool: readers 
 
 ## Consumers
 
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)
 
 ## Objects

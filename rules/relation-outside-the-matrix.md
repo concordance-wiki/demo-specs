@@ -11,5 +11,5 @@ Check `E-META-REL`, severity error by default, documented with a before and afte
 ## Applies to
 
 - [Link](../objects/link.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

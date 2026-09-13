@@ -10,4 +10,4 @@ Every link carries a confidence between 0 and 1 and at least one provenance. Whe
 ## Affects
 
 - [Link](../objects/link.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

@@ -10,4 +10,4 @@ Every link between two notes ends up with a relation of the profile, decided on 
 ## Applies to
 
 - [Link](../objects/link.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

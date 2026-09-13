@@ -10,4 +10,4 @@ Co-occurrence is accumulated per paragraph and never materialised as a full matr
 ## Affects
 
 - [Model](../objects/model.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

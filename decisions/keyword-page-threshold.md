@@ -10,4 +10,4 @@ A keyword page exists from three occurrences in at least two files; below that, 
 ## Affects
 
 - [Entity](../objects/entity.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

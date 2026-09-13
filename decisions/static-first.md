@@ -10,4 +10,4 @@ The build is a pipeline command that produces a static site. The main content of
 ## Affects
 
 - [Model](../objects/model.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

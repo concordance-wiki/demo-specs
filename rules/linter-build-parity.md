@@ -12,5 +12,5 @@ The rule holds because both sides call the same functions to read a note, derive
 ## Applies to
 
 - [Finding](../objects/finding.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

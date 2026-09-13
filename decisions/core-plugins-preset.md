@@ -10,5 +10,5 @@ The core reads markdown and produces JSON and depends on no office format nor sy
 ## Affects
 
 - [Resource](../objects/resource.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

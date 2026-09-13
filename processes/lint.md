@@ -4,7 +4,7 @@ triggers: [pre-commit hook, merge request pipeline]
 ---
 # Lint
 
-`concordance lint` runs the same checks as the [build](build.md) on a single knowledge repository, before any site exists. In local scope it needs no network and writes nothing unless asked to fix. In global scope it reads the latest published [model](../objects/model.md) to check what one repository cannot see alone: links into other sources, frontmatter relations across sources and homonyms with the glossary; it never rebuilds the model.
+`concordance lint` runs the same checks as the [build pipeline](build-pipeline.md) on a single knowledge repository, before any site exists. In local scope it needs no network and writes nothing unless asked to fix. In global scope it reads the latest published [model](../objects/model.md) to check what one repository cannot see alone: links into other sources, frontmatter relations across sources and homonyms with the glossary; it never rebuilds the model.
 
 ## Steps
 

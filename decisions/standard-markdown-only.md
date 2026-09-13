@@ -11,5 +11,5 @@ Concordance reads CommonMark, GFM and optional YAML frontmatter, nothing else. N
 
 - [Entity](../objects/entity.md)
 - [Resource](../objects/resource.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

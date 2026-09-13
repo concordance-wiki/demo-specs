@@ -12,4 +12,4 @@ Check `W-API-NOCONSUMER`, severity warning by default, documented with a before 
 
 - [Entity](../objects/entity.md)
 - [Link](../objects/link.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

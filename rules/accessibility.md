@@ -23,4 +23,4 @@ The [theming guide](https://github.com/concordance-wiki/concordance/blob/main/do
 - [Alphabetical index](../screens/alphabetical-index.md)
 - [Search](../screens/search.md)
 - [To-do page](../screens/todo-page.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

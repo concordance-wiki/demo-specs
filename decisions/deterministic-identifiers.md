@@ -10,5 +10,5 @@ An entity's identifier is its source name and its relative path without extensio
 ## Affects
 
 - [Entity](../objects/entity.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

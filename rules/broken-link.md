@@ -12,5 +12,5 @@ Check `E-LINK-BROKEN`, severity error by default, documented with a before and a
 
 - [Entity](../objects/entity.md)
 - [Link](../objects/link.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

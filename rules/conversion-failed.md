@@ -11,4 +11,4 @@ Check `W-CONV-FAILED`, severity warning by default, documented with a before and
 ## Applies to
 
 - [Resource](../objects/resource.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

@@ -10,4 +10,4 @@ The first twenty mentions of an entity are in the served HTML; the rest loads fr
 ## Affects
 
 - [Entity](../objects/entity.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

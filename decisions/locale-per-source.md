@@ -10,5 +10,5 @@ Each source declares its locale, English or French, defaulting to the project lo
 ## Affects
 
 - [Entity](../objects/entity.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

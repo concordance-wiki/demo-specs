@@ -11,4 +11,4 @@ Check `I-PII-DETECTED`, severity info by default, documented with a before and a
 ## Applies to
 
 - [Resource](../objects/resource.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

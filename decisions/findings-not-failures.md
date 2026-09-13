@@ -10,5 +10,5 @@ A content anomaly becomes a finding, never a crash. The build fails only when th
 ## Affects
 
 - [Finding](../objects/finding.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

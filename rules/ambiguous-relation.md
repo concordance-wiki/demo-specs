@@ -11,4 +11,4 @@ Check `I-REL-AMBIGUOUS`, severity info by default, documented with a before and 
 ## Applies to
 
 - [Link](../objects/link.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

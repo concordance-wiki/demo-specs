@@ -11,5 +11,5 @@ Check `W-TERM-UNDEFINED`, severity warning by default, documented with a before 
 ## Applies to
 
 - [Entity](../objects/entity.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

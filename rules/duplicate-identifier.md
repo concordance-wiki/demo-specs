@@ -11,5 +11,5 @@ Check `E-ID-DUP`, severity error by default, documented with a before and after 
 ## Applies to
 
 - [Entity](../objects/entity.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)

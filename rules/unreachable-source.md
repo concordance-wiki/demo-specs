@@ -11,4 +11,4 @@ Check `W-SOURCE-UNREACHABLE`, severity warning by default, documented with a bef
 ## Applies to
 
 - [Resource](../objects/resource.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)

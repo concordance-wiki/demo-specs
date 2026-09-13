@@ -11,5 +11,5 @@ The meta-model is a YAML profile validated by a schema. The engine knows only ty
 
 - [Entity](../objects/entity.md)
 - [Link](../objects/link.md)
-- [Build](../processes/build.md)
+- [Build](../processes/build-pipeline.md)
 - [Lint](../processes/lint.md)
