@@ -9,6 +9,10 @@ The page of a note. One template serves every type; only the highlighted propert
 
 The order is fixed: a type badge with two qualifying properties, the title, then the rendered markdown at full column width. Declared metadata sits in the side panel, never between the title and the text, and at most five properties are highlighted. Written links and recognised words are distinguished in the text, with a legend. The footer shows the source path and an edit link to the forge.
 
+## Today
+
+The page at `<id>/index.html` opens with the type badge and the first two properties the profile highlights for the type, a second line for the next three when it names that many, then the title. The note follows as an article at full column width, one section per heading, with its headings, lists, tables, quotes, code blocks and the images of its repository, which the build copies next to the page; an external image keeps its URL and is never fetched. In the text, a markdown link whose target is a page of the site is marked as written, and every recognised word is a dotted link to the page of the [entity](../objects/entity.md) it names; a legend under the article names the two marks. The declared properties sit in a side panel after the article, never between the title and the text; the same template serves every type, and only the badge, the highlighted properties and the order of the neighbours change with it. The footer names the source file as `source: <name>/<path>` and, when the source is a GitHub or GitLab repository or the configuration gives an edit pattern, links to its edit page on the declared ref.
+
 ## Mentions
 
 The mentions panel has two sections that are never mixed: links written in notes, and files that merely cite the entity. Mentions are grouped by file, each group collapsible with its count. The first twenty are in the served HTML; the rest loads from a JSON fragment specific to the entity.
