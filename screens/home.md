@@ -9,6 +9,10 @@ Three ways into a corpus, of equal standing: the file tree, the alphabetical ind
 
 No dashboard, no maturity metric, no chart.
 
+## Today
+
+The page at `index.html` shows the project name from `theme.yaml` or the configuration, the five most cited entities as shortcuts, the number of sources and files of the build and its date, and three entry points that count the entities by domain, by type and by application, each item leading to the alphabetical index. The search field waits for the search index; the file tree and the freshness entries wait for their own pages.
+
 ## Objects
 
 - Reads: [model](../objects/model.md)
