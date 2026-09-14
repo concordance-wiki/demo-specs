@@ -38,6 +38,8 @@ The page of an API whose contract the build imported is the [API page](api-page.
 
 The page of a slide deck, a PDF or a transcript, or of a note merged with one, carries the [document viewer](../../viewers/document-viewer.md) after the article: the download link of each file, its PDF, a rail of its pages, slides or cues, their extracted text in disclosure blocks, and the viewer that opens the PDF on demand. The markdown of the note is untouched.
 
+The template follows the lead of the group. A note leads its twin resources, the other [representations](../../objects/ingestion/representation.md) of its page: the page keeps the template of its type, a rule, a screen or a business object whose Word file is only an equivalent already converted, and the documents stand folded under the article, each behind the line "Also available: name.docx · Text document · 24 pages", the file name, its kind and its page count when one is known, the viewer, the extracted text and the download opening on demand. A document without a note leads, its own file being the office file, and a note describing a document with it: the page is the [document page](document-page.md). A transcript leads to the [meeting page](meeting-page.md) through its type.
+
 ## Mentions
 
 The [mentions panel](../panels/mentions-panel.md) is the "Related pages" block of the right panel: one entry per page that evokes the entity, by number of passages, written links and recognised words counted alike, each entry marked "Cited" when the page writes a link, six in view before the button naming the others; the note under the list says so. The first twenty mentions are in the served HTML; the rest loads from a JSON fragment specific to the entity.
