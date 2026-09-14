@@ -3,6 +3,7 @@ aliases: [search results, results page]
 roles: [roles/publication/reader]
 url_pattern: /search
 status: valid
+calls: [api/operations/search-model, api/operations/list-entities]
 ---
 # Search
 

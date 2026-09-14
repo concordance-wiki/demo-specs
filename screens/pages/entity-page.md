@@ -2,6 +2,7 @@
 roles: [roles/publication/reader]
 url_pattern: /{source}/{path}
 status: valid
+calls: [api/operations/get-entity, api/operations/list-entities]
 ---
 # Entity page
 
